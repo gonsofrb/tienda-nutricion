@@ -1,0 +1,3 @@
+Administrador
+-> email admin@admin.es
+-> pass  admin

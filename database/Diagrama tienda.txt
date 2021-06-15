@@ -1,0 +1,7 @@
+Tabla usuario donde se guardan los registros de los usuarios.
+Tabla categoria donde se guardan todos los registros de todas las categorias.
+Tabla de productos se relaciona mediante el id_categoria con la tabla de categoria, asi vamos a saber qué producto está en qué categoria.
+Tabla de usuario, donde va a contener su direccion,et en cada uno de los registros  de los pedidos.
+Tabla intermedia ( tabla pivote ) en la cual vamos a relacionar un producto con un pedido y el numero de unidades, de esa manera
+podemos tener mil lineas de pedidos para un mismo pedido.Es una relacion de muchos a muchos porque muchos pedidos pueden tener muchos
+productos.Un producto puede estar en muchos pedidos y en un pedido puede haber muchos productos.
